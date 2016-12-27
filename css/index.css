@@ -34,60 +34,63 @@ body,html{height: 100%;position: relative;}
     }
 .container{width: 1100px;margin: 0 auto;}
 .banner{background: url(../images/banner-bg.jpg) no-repeat center;background-size: cover;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
-.daigou{background: url(../images/2.jpg) no-repeat center;background-size: cover;}
-.daigou .yao{width: 580px;height: auto;background: url(../images/yao.png) no-repeat left bottom;text-align: left;padding: 76px 60px 26px 30px;box-sizing: border-box;}
-.daigou .yao h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.daigou .yao span{font-size: 21px;color: #333;}
-.daigou .yao p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
-.daigou .yao a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
-.daigou .yao a:hover{background: #f62c38;}
-.daigou .yiyuan{width: 404px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
-.daigou .yiyuan h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.daigou .yiyuan span{font-size: 21px;color: #333;}
-.daigou .yiyuan .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;}
-.daigou .yiyuan h5{font-size: 18px;color: #333;}
-.daigou .yiyuan p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 10px;}
-.daigou .yiyuan a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
-.daigou .yiyuan a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
-.daigou .yiyuan a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
-.daigou .yiyuan a.dist:hover{background: #f63641;}
-.tijian{background: url(../images/3.jpg) no-repeat center;background-size: cover;}
-.tijian .yao{width: 383px;height: auto;background: url(../images/yao.png) no-repeat left bottom;text-align: left;padding: 76px 30px 26px 30px;box-sizing: border-box;}
-.tijian .yao h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.tijian .yao span{font-size: 21px;color: #333;}
-.tijian .yao p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
-.tijian .yao a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
-.tijian .yao a:hover{background: #f62c38;}
-.tijian .yiyuan{width: 647px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
-.tijian .yiyuan h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.tijian .yiyuan span{font-size: 21px;color: #333;}
-.tijian .yiyuan dl{margin-top: 45px;}
-.tijian .yiyuan dt{float: left;}
-.tijian .yiyuan dd{margin-left: 250px;}
-.tijian .yiyuan .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;}
-.tijian .yiyuan h5{font-size: 18px;color: #333;}
-.tijian .yiyuan p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 20px;line-height: 30px;margin-bottom: 40px;}
-.tijian .yiyuan a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
-.tijian .yiyuan a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
-.tijian .yiyuan a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
-.tijian .yiyuan a.dist:hover{background: #f63641;}
-.chanzi{background: url(../images/4.jpg) no-repeat center;background-size: cover;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
-.chanzi .yao{width: 580px;height: auto;background: url(../images/yao.png) no-repeat left bottom;text-align: left;padding: 76px 60px 26px 30px;box-sizing: border-box;}
-.chanzi .yao h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.chanzi .yao span{font-size: 21px;color: #333;}
-.chanzi .yao p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
-.chanzi .yao a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
-.chanzi .yao a:hover{background: #f62c38;}
-.chanzi .yiyuan{width: 404px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
-.chanzi .yiyuan h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
-.chanzi .yiyuan span{font-size: 21px;color: #333;}
-.chanzi .yiyuan .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;}
-.chanzi .yiyuan h5{font-size: 18px;color: #333;}
-.chanzi .yiyuan p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 10px;}
-.chanzi .yiyuan a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
-.chanzi .yiyuan a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
-.chanzi .yiyuan a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
-.chanzi .yiyuan a.dist:hover{background: #f63641;}
+.overseasShop{background: url(../images/2.jpg) no-repeat center;background-size: cover;} 
+.overseasShop .drug{width: 580px;height: auto;/*background: url(../images/drug.png) no-repeat left bottom;*/background: linear-gradient(to bottom,transparent 50%,rgba(255,255,255,0.5) 100%);text-align: left;padding: 76px 60px 26px 30px;box-sizing: border-box;}
+.overseasShop .drug h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasShop .drug span{font-size: 21px;color: #333;}
+.overseasShop .drug p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
+.overseasShop .drug a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
+.overseasShop .drug a:hover{background: #f62c38;}
+.overseasShop .hospital{width: 404px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
+.overseasShop .hospital h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasShop .hospital span{font-size: 21px;color: #333;}
+.overseasShop .hospital .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;box-sizing: border-box;overflow: hidden;}
+.overseasShop .hospital h5{font-size: 18px;color: #333;}
+.overseasShop .hospital p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 10px;}
+.overseasShop .hospital a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
+.overseasShop .hospital a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
+.overseasShop .hospital a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
+.overseasShop .hospital a.dist:hover{background: #f63641;}
+.overseasMedical{background: url(../images/3.jpg) no-repeat center;background-size: cover;}
+.overseasMedical .health{width: 383px;height: auto;background: linear-gradient(to bottom,transparent 50%,rgba(255,255,255,0.5) 100%);/*background: url(../images/health.png) no-repeat left bottom;*/text-align: left;padding: 76px 30px 26px 30px;box-sizing: border-box;}
+.overseasMedical .health h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasMedical .health span{font-size: 21px;color: #333;}
+.overseasMedical .health p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
+.overseasMedical .health a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
+.overseasMedical .health a:hover{background: #f62c38;}
+.overseasMedical .hospital{width: 647px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
+.overseasMedical .hospital h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasMedical .hospital span{font-size: 21px;color: #333;}
+.overseasMedical .hospital dl{margin-top: 45px;}
+.overseasMedical .hospital dt{float: left;}
+.overseasMedical .hospital dd{margin-left: 250px;}
+.overseasMedical .hospital .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;}
+.overseasMedical .hospital h5{font-size: 18px;color: #333;}
+.overseasMedical .hospital p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 20px;line-height: 30px;margin-bottom: 40px;}
+.overseasMedical .hospital a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
+.overseasMedical .hospital a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
+.overseasMedical .hospital a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
+.overseasMedical .hospital a.dist:hover{background: #f63641;}
+.overseasBirth{background: url(../images/4.jpg) no-repeat center;background-size: cover;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
+.overseasBirth .birth{width: 580px;height: auto;background: linear-gradient(to bottom,transparent 50%,rgba(255,255,255,0.5) 100%);/*background: url(../images/birth.png) no-repeat left bottom;*/text-align: left;padding: 76px 60px 26px 30px;box-sizing: border-box;}
+.overseasBirth .birth h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasBirth .birth span{font-size: 21px;color: #333;}
+.overseasBirth .birth p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 24px;}
+.overseasBirth .birth a{font-size: 18px;color: #fff;display: block;width: 110px;height: 37px;background: #f13e48;text-align: center;line-height: 37px;float: right;border-radius: 3px;margin-top: 40px;}
+.overseasBirth .birth a:hover{background: #f62c38;}
+.overseasBirth .hospital{width: 404px;height: auto;text-align: left;padding: 76px 0px 26px 63px;box-sizing: border-box;}
+.overseasBirth .hospital h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;}
+.overseasBirth .hospital span{font-size: 21px;color: #333;}
+.overseasBirth .hospital .img{width: 342px;height: 171px;padding: 4px;background: #fff;margin: 10px 0;}
+.overseasBirth .hospital h5{font-size: 18px;color: #333;}
+.overseasBirth .hospital p{font-size: 16px;color: #333;text-indent: 2em;margin-top: 10px;}
+.overseasBirth .hospital a{font-size: 18px;color: #fff;display: block;width: 165px;height: 52px;background: #f13e48;text-align: center;line-height: 52px;border-radius: 3px;margin-top: 15px;}
+.overseasBirth .hospital a.num{font-size: 16px;color: #69550f;background: #fcc70d url(../images/phone.png) no-repeat 10px center;padding-left: 25px;box-sizing: border-box;float: left;}
+.overseasBirth .hospital a.dist{float: right;background: #f15e66;font-size: 21px;color: #800f15;}
+.overseasBirth .hospital a.dist:hover{background: #f63641;}
+.footer{position: absolute;bottom: 0;left: 0;right: 0;}
+
+
 #top{height: 50px;position: fixed;left: 50%;top: 0;right: 0;z-index: 9999;margin-left: -960px;}
 .slide-img{position: fixed;left: 10px;top: 50%;margin-top: -195px;z-index: 9999;}
-#footer{height: 64px;position: fixed;left: 50%;bottom: 0;right: 0;z-index: 9999;margin-left: -960px;}
+/*#footer{height: 64px;position: fixed;left: 50%;bottom: 0;right: 0;z-index: 9999;margin-left: -960px;}*/
