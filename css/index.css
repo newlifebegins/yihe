@@ -30,7 +30,34 @@ body,html{height: 100%;position: relative;}
 .swiper-slide h1{font-family: '[GBInnMing]';}
 .swiper-slide p,.swiper-slide h5{font-family: '[PingFang]';}
 .container{width: 1100px;margin: 0 auto;}
-.banner{background: url(../images/banner-bg.jpg) no-repeat center;background-size: cover;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
+.banner{background: url(../images/banner-bg.jpg) no-repeat center;background-size: cover;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;width: 120%;height: 120%;position: absolute;left: -10%;top: -10%;
+	animation: headerbg 5s forwards;
+	-moz-animation: headerbg 5s forwards;	/* Firefox */
+	-webkit-animation: headerbg 5s forwards;	/* Safari ºÍ Chrome */
+	-o-animation: headerbg 5s forwards;
+}
+
+
+@keyframes headerbg
+{
+from {width: 120%; height: 120%; left: -10%; top: -10%}
+to {width: 100%; height: 100%; left: 0; top: 0}
+}
+-moz-@keyframes headerbg
+{
+from {width: 120%; height: 120%; left: -10%; top: -10%}
+to {width: 100%; height: 100%; left: 0; top: 0}
+}
+-webkit-@keyframes headerbg
+{
+from {width: 120%; height: 120%; left: -10%; top: -10%}
+to {width: 100%; height: 100%; left: 0; top: 0}
+}
+-o-@keyframes headerbg
+{
+from {width: 120%; height: 120%; left: -10%; top: -10%}
+to {width: 100%; height: 100%; left: 0; top: 0}
+}
 .overseasShop{background: url(../images/2.jpg) no-repeat center;background-size: cover;} 
 .overseasShop .drug{width: 580px;height: auto;background: linear-gradient(to bottom,transparent 50%,rgba(255,255,255,0.5) 100%);text-align: left;padding: 76px 60px 26px 30px;box-sizing: border-box;}
 .overseasShop .drug h1{font-size: 32px;color: #f13e48;padding-bottom: 8px;border-bottom: 1px solid #f13e48;margin-bottom: 5px;}
@@ -90,7 +117,7 @@ body,html{height: 100%;position: relative;}
 
 
 #top{height: 50px;position: fixed;left: 50%;top: 0;right: 0;z-index: 9999;margin-left: -960px;}
-.slide-bar{position: fixed;left: 10px;top: 50%;margin-top: -195px;z-index: 9999;width: 132px;height: 390px;background: #fff url(../images/slide.png) no-repeat center;}
+.slide-bar{position: fixed;left: 10px;top: 50%;margin-top: -195px;z-index: 9999;width: 132px;height: 390px;background: transparent url(../images/slide.png) no-repeat center;}
 .slide-bar ul{padding-top: 138px;text-align: center;}
 .slide-bar li{font-size: 16px;line-height: 30px;}
 .slide-bar li a{color: #f15e66;}
